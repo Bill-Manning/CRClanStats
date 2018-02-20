@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="30b8c0fc-fc44-46cc-a199-ac61f8c91982" ChangeDateTime="02/19/2018 23:08:33">
+    <Property Name="ElementName" Value="[dbo].[ClanStats].[Clan]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClanStats]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ClanChestParticipationCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="18f5eb0f-1d6d-422b-b844-a3b40a39450b" ChangeDateTime="02/19/2018 23:12:46">
+    <Property Name="ElementName" Value="[dbo].[ClanStatsWeekly].[ClanChestsDoneDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClanStatsWeekly]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ClanChestCompletedMinutes" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8e03c84b-d30a-4d10-a888-a1d8e4ca0c03" ChangeDateTime="02/19/2018 23:16:39">
+    <Property Name="ElementName" Value="[dbo].[ClanStatsWeekly].[ClanChestParticipationCount]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClanStatsWeekly]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ClanChestNonParticipationCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c893629f-542f-42f0-81fc-1f2d4df712bb" ChangeDateTime="02/19/2018 23:18:56">
+    <Property Name="ElementName" Value="[dbo].[ClanStatsWeekly].[Trophies]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClanStatsWeekly]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TotalTrophies" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9c4bd59b-754f-4496-8d6e-ea2263c40685" ChangeDateTime="02/19/2018 23:19:05">
+    <Property Name="ElementName" Value="[dbo].[ClanStatsWeekly].[Donations]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClanStatsWeekly]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TotalDonations" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5d6f64d2-c638-4647-983b-f56ccc3187de" ChangeDateTime="02/19/2018 23:21:21">
+    <Property Name="ElementName" Value="[dbo].[ClanStatsWeekly].[ClanChestsCompleted]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClanStatsWeekly]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ClanChestsCompletedCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="007b5c82-7239-4b0d-9e0e-4ebbbbe13cb9" ChangeDateTime="02/19/2018 23:22:06">
+    <Property Name="ElementName" Value="[dbo].[ClanStatsWeekly].[ClanChestCrowns]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClanStatsWeekly]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ClanChestCrownsCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="154200d4-a6b8-4407-a73c-96802614e5d5" ChangeDateTime="02/19/2018 23:22:17">
+    <Property Name="ElementName" Value="[dbo].[ClanStatsWeekly].[TopClanChestCrownsPlayer]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClanStatsWeekly]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TopCrownsPlayer" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fcfadbe1-8e31-4aa3-8ca7-7c0f986e80d4" ChangeDateTime="02/19/2018 23:44:51">
+    <Property Name="ElementName" Value="[dbo].[PlayerStats].[ClanChestCrowns]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerStats]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ClanChestCrownsCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="84207a52-820c-4c70-a684-5f7f6a36df95" ChangeDateTime="02/19/2018 23:44:55">
+    <Property Name="ElementName" Value="[dbo].[PlayerStats].[Donations]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerStats]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DonationsCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d9b606a4-2f40-4e0a-a614-d606c21cbd7a" ChangeDateTime="02/19/2018 23:44:59">
+    <Property Name="ElementName" Value="[dbo].[PlayerStats].[DonationsReceived]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerStats]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DonationsReceivedCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ce37d214-6164-4647-9364-746a17850fcf" ChangeDateTime="02/19/2018 23:48:31">
+    <Property Name="ElementName" Value="[dbo].[PlayerStats].[1v1Count]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerStats]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="1v1MatchCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7ca3396b-79db-4650-8bf2-f0fd9706b931" ChangeDateTime="02/19/2018 23:48:37">
+    <Property Name="ElementName" Value="[dbo].[PlayerStats].[2v2Count]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerStats]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="2v2MatchCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="42bd4220-38f2-48a2-b19a-87953d35ce97" ChangeDateTime="02/19/2018 23:48:42">
+    <Property Name="ElementName" Value="[dbo].[PlayerStats].[FriendlyCount]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerStats]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FriendlyMatchCount" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3e9c99f6-799b-41db-9094-459f8124255a" ChangeDateTime="02/19/2018 23:48:47">
+    <Property Name="ElementName" Value="[dbo].[PlayerStats].[Tournament]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerStats]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TournamentMatch" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1fb927e6-15f4-424b-ab9d-678943010287" ChangeDateTime="02/19/2018 23:52:45">
+    <Property Name="ElementName" Value="[dbo].[PlayerStats].[FavoriteEmoji]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerStats]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CurrentRole" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="91faba90-a0ab-49db-8c85-51eea3ce8578" ChangeDateTime="02/20/2018 00:04:17">
+    <Property Name="ElementName" Value="[dbo].[PlayerStatsWeekly].[CRole]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerStatsWeekly]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Role" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9ff2aff2-bb57-4ee5-b784-41565ac39530" ChangeDateTime="02/20/2018 00:08:04">
+    <Property Name="ElementName" Value="[dbo].[PlayerRole].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlayerRole]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PlayerRoleId" />
+  </Operation>
+</Operations>
