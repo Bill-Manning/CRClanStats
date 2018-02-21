@@ -33,14 +33,6 @@ namespace CRClanStats.DataModel
             Property(x => x.DonationsCount).HasColumnName(@"DonationsCount").HasColumnType("int").IsRequired();
             Property(x => x.DonationsReceivedCount).HasColumnName(@"DonationsReceivedCount").HasColumnType("int").IsRequired();
             Property(x => x.ClanChestCrownsCount).HasColumnName(@"ClanChestCrownsCount").HasColumnType("int").IsOptional();
-            Property(x => x.IsClanChestEligible).HasColumnName(@"IsClanChestEligible").HasColumnType("bit").IsRequired();
-            Property(x => x.C1V1MatchCount).HasColumnName(@"1v1MatchCount").HasColumnType("int").IsOptional();
-            Property(x => x.C2V2MatchCount).HasColumnName(@"2v2MatchCount").HasColumnType("int").IsOptional();
-            Property(x => x.FriendlyMatchCount).HasColumnName(@"FriendlyMatchCount").HasColumnType("int").IsOptional();
-            Property(x => x.TournamentMatch).HasColumnName(@"TournamentMatch").HasColumnType("int").IsOptional();
-            Property(x => x.ChallengeMatchCount).HasColumnName(@"ChallengeMatchCount").HasColumnType("int").IsOptional();
-            Property(x => x.SharedCount).HasColumnName(@"SharedCount").HasColumnType("int").IsOptional();
-            Property(x => x.ChatLogPostCount).HasColumnName(@"ChatLogPostCount").HasColumnType("int").IsOptional();
             Property(x => x.PlayerRoleId).HasColumnName(@"PlayerRoleId").HasColumnType("int").IsRequired();
 
             HasRequired(a => a.Player).WithMany(b => b.PlayerStatsWeeklies).HasForeignKey(c => c.PlayerId).WillCascadeOnDelete(false);

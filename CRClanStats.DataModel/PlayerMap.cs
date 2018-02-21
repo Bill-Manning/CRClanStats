@@ -27,7 +27,7 @@ namespace CRClanStats.DataModel
             ToTable("Player", schema);
             HasKey(x => x.PlayerId);
 
-            Property(x => x.PlayerId).HasColumnName(@"PlayerId").HasColumnType("int").IsRequired().HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.None);
+            Property(x => x.PlayerId).HasColumnName(@"PlayerId").HasColumnType("int").IsRequired().HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity);
             Property(x => x.Tag).HasColumnName(@"Tag").HasColumnType("varchar").IsRequired().IsUnicode(false).HasMaxLength(10);
             Property(x => x.Name).HasColumnName(@"Name").HasColumnType("nvarchar").IsRequired().HasMaxLength(50);
             Property(x => x.FormerName).HasColumnName(@"FormerName").HasColumnType("nvarchar").IsOptional().HasMaxLength(50);

@@ -23,14 +23,6 @@ namespace CRClanStats.DataModel
         public int DonationsCount { get; set; }
         public int DonationsReceivedCount { get; set; }
         public int? ClanChestCrownsCount { get; set; }
-        public bool IsClanChestEligible { get; set; } = true;
-        public int? C1V1MatchCount { get; set; }
-        public int? C2V2MatchCount { get; set; }
-        public int? FriendlyMatchCount { get; set; }
-        public int? TournamentMatch { get; set; }
-        public int? ChallengeMatchCount { get; set; }
-        public int? SharedCount { get; set; }
-        public int? ChatLogPostCount { get; set; }
         public int PlayerRoleId { get; set; }
 
 

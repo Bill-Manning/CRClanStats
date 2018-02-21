@@ -27,7 +27,7 @@ namespace CRClanStats.DataModel
             ToTable("PlayerRole", schema);
             HasKey(x => x.PlayerRoleId);
 
-            Property(x => x.PlayerRoleId).HasColumnName(@"PlayerRoleId").HasColumnType("int").IsRequired().HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.None);
+            Property(x => x.PlayerRoleId).HasColumnName(@"PlayerRoleId").HasColumnType("int").IsRequired().HasDatabaseGeneratedOption(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity);
             Property(x => x.RoleName).HasColumnName(@"RoleName").HasColumnType("varchar").IsRequired().IsUnicode(false).HasMaxLength(50);
         }
     }

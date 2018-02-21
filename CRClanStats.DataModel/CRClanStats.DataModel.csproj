@@ -74,21 +74,6 @@
     <Compile Include="ICRClanStats.cs">
       <DependentUpon>Database1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\ClanStat.cs" />
-    <Compile Include="Maps\ClanStatMap.cs" />
-    <Compile Include="Models\ClanStatsWeekly.cs" />
-    <Compile Include="Maps\ClanStatsWeeklyMap.cs" />
-    <Compile Include="Context\CRClanStats.cs" />
-    <Compile Include="Context\CRClanStatsFactory.cs" />
-    <Compile Include="Context\FakeCRClanStats.cs" />
-    <Compile Include="Context\FakeDbSet.cs" />
-    <Compile Include="Context\ICRClanStats.cs" />
-    <Compile Include="Models\Player.cs" />
-    <Compile Include="Maps\PlayerMap.cs" />
-    <Compile Include="Models\PlayerStat.cs" />
-    <Compile Include="Maps\PlayerStatMap.cs" />
-    <Compile Include="Models\PlayerStatsWeekly.cs" />
-    <Compile Include="Maps\PlayerStatsWeeklyMap.cs" />
     <Compile Include="Player.cs">
       <DependentUpon>Database1.tt</DependentUpon>
     </Compile>
