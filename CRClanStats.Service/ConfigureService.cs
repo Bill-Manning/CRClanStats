@@ -5,12 +5,13 @@ namespace CRClanStats.Service
 {
     public static class ConfigureService
     {
-        public static ILog Logger { get; private set; }
+        //private static ILog Logger => LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
 
         public static void Configure()
         {
-            Logger = LogManager.GetLogger(typeof(ConfigureService));
-            Logger.Debug("Entered Configure");
+            
+           // Logger.Debug("Entered Configure");
 
             HostFactory.Run(configure =>
             {

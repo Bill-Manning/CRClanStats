@@ -5,11 +5,11 @@ namespace CRClanStats.Service
 {
     public class Program
     {
-        public static ILog Logger { get; private set; }
+        private static ILog Logger => LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
 
         public static void Main(string[] args)
         {
-            Logger = LogManager.GetLogger(typeof(Program));
             Logger.Debug("Entered Main");
 
             ConfigureService.Configure();
